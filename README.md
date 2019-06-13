@@ -13,19 +13,19 @@
 <br><br>
 
 <h4>Console Output</h4>
-*** Happy path test ***<br>
-Lines in File: ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcde', 'edcba']<br>
-Largest words: ['abcde', 'abcde', 'edcba']<br>
-Reversed words: ['edcba', 'edcba', 'abcde']<br>
-*** Empty file test ***<br>
-Lines in File: []<br>
-Largest words: []<br>
-Reversed words: []<br>
-*** Sentences in File test ***<br>
-Lines in File: ['TestRail helps you manage and track your software testing efforts and organize your QA department.', 'Its intuitive web-based user interface makes it easy to create test cases, manage test runs and coordinate your entire testing process.', '', 'Easily track and follow the status of individual tests, milestones and projects with dashboards and activity reports.', 'Get real-time insights into your testing progress and boost productivity with personalized todo lists, filters and email notifications.', 'Efficient test management, get started today!']
-<br>Largest words: ['notifications.']<br>
-Reversed words: ['.snoitacifiton']<br>
-*** File Does Not Exist test ***<br>
-File '../files/testFileDoesNotExist.txt' not exist<br>
-*** Invalid file format test ***<br>
-File format is invalid. Only accepts .dat and .txt<br>
+*** Happy path test *** ../files/testFile.txt
+Lines in File: ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcde', 'edcba']
+<br>Largest words: ['abcde', 'abcde', 'edcba']
+<br>Reversed words: ['edcba', 'edcba', 'abcde']
+<br>*** Empty file test *** ../files/testEmptyFile.txt
+<br>Lines in File: []
+<br>Largest words: []
+<br>Reversed words: []
+<br>*** Sentences in File test *** ../files/testSentencesFile.txt
+<br>Lines in File: ['TestRail helps you manage and track your software testing efforts and organize your QA department.', 'Its intuitive web-based user interface makes it easy to create test cases, manage test runs and coordinate your entire testing process.', '', 'Easily track and follow the status of individual tests, milestones and projects with dashboards and activity reports.', 'Get real-time insights into your testing progress and boost productivity with personalized todo lists, filters and email notifications.', 'Efficient test management, get started today!']
+<br>Largest words: ['notifications.']
+<br>Reversed words: ['.snoitacifiton']
+<br>*** File Does Not Exist test *** ../files/testFileDoesNotExist.txt
+<br>File '../files/testFileDoesNotExist.txt' not exist
+<br>*** Invalid file format test *** ../files/testImageFile.png
+<br>File format is invalid. Only accepts .dat and .txt<br>

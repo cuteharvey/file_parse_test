@@ -26,28 +26,28 @@ class test_parse_file(object):
         self.pfm = pfms()
 
     def test_happy_path(self):
-        print "*** Happy path test ***"
+        print "*** Happy path test *** ../files/testFile.txt"
         filename = "../files/testFile.txt"
         assert self.parse_file(filename), "Expecting file to be found and valid. Check if file %s actually exists with correct format" % filename
 
     def test_empty_file(self):
-        print "*** Empty file test ***"
+        print "*** Empty file test *** ../files/testEmptyFile.txt"
         filename = "../files/testEmptyFile.txt"
         assert self.parse_file(filename), "Expecting file to be found and valid. Check if file %s actually exists with correct format" % filename
 
     def test_sentences_in_file(self):
-        print "*** Sentences in File test ***"
+        print "*** Sentences in File test *** ../files/testSentencesFile.txt"
         filename = "../files/testSentencesFile.txt"
         assert self.parse_file(filename), "Expecting file to be found and valid. Check if file %s actually exists with correct format" % filename
 
     def test_file_does_not_exist(self):
-        print "*** File Does Not Exist test ***"
+        print "*** File Does Not Exist test *** ../files/testFileDoesNotExist.txt"
         filename = "../files/testFileDoesNotExist.txt"
         #filename = "../files/testFile.txt"        #enable this line to check if test will fail if file exists (testing your method actually works if file actually exists)
         assert self.parse_file(filename) is False, "Expecting file DOES NOT EXIST. File %s is found" % filename
 
     def test_file_invalid_format(self):
-        print "*** Invalid file format test ***"
+        print "*** Invalid file format test *** ../files/testImageFile.png"
         filename = "../files/testImageFile.png"
         assert self.parse_file(filename) is False, "Expecting file DOES NOT EXIST. File %s is found with valid format" % filename
 
