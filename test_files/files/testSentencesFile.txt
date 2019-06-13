@@ -1,0 +1,6 @@
+TestRail helps you manage and track your software testing efforts and organize your QA department.
+Its intuitive web-based user interface makes it easy to create test cases, manage test runs and coordinate your entire testing process.
+
+Easily track and follow the status of individual tests, milestones and projects with dashboards and activity reports.
+Get real-time insights into your testing progress and boost productivity with personalized todo lists, filters and email notifications.
+Efficient test management, get started today!
