@@ -14,7 +14,7 @@
 
 <h4>Console Output</h4>
 *** Happy path test *** ../files/testFile.txt
-Lines in File: ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcde', 'edcba']
+<br>Lines in File: ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcde', 'edcba']
 <br>Largest words: ['abcde', 'abcde', 'edcba']
 <br>Reversed words: ['edcba', 'edcba', 'abcde']
 <br>*** Empty file test *** ../files/testEmptyFile.txt
