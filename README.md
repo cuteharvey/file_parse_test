@@ -11,8 +11,11 @@
 <h4>NOTES:</h4>
 - Using Unittest framework<br>
 - Some assumptions are made and are written inside the test file. On a real project, these assumptions should be made clear with PMs or Project Leads<br>
-- log.py and setup_teardown.py were added for future enhancements.
-<br><br>
+- log.py and setup_teardown.py were added for future enhancements.<br>
+- 'test_suites' folder contains the test suites you can run. very useful when you have hundreds/thousands of tests and for CI. running SMOKE tests when time contrained and FULL tests otherwise.<br>
+- 'files' folder contains test files used for test cases<br>
+- 'requirements.txt' contains libraries used in this exercise<br>
+<br>
 
 <h4>Console Output</h4>
 *** Happy path test *** ../files/testFile.txt
