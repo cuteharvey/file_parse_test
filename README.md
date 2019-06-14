@@ -3,8 +3,8 @@
 <h3>Instructions</h3>
 - Download 'file_parse_test' repo<br>
 - go to 'file_parse_test/test_files/' folder<br>
-- install requirements/libraries using this command: pip install -r requirements.txt
-- run the following command to run ALL tests: ./run_tests.sh full_test
+- install requirements/libraries using this command: pip install -r requirements.txt<br>
+- run the following command to run ALL tests: ./run_tests.sh full_test<br>
 - run the following command to run SMOKE Tests: ./run_tests.sh smoke_test
 
 <br><br>
